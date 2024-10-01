@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.6">
+    <title>Calculator works hard</title>
+    <link rel="stylesheet" href="style26-hard.css">
+</head>
+<body>
+    <section class="calculate">
+        <div class="display">
+            <input id="result" type="text" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="ac">AC</button>
+            <button onclick="brackets()" class="sini">( )</button>
+            <button onclick="appendValue('%')" class="sini">%</button>
+            <button onclick="appendValue('/')" class="sini">/</button>
+            <button onclick="appendValue('7')" class="blackblue">7</button>
+            <button onclick="appendValue('8')" class="blackblue">8</button>
+            <button onclick="appendValue('9')" class="blackblue">9</button>
+            <button onclick="appendValue('*')" class="sini">*</button>
+            <button onclick="appendValue('4')" class="blackblue">4</button>
+            <button onclick="appendValue('5')" class="blackblue">5</button>
+            <button onclick="appendValue('6')" class="blackblue">6</button>
+            <button onclick="appendValue('-')" class="sini">-</button>
+            <button onclick="appendValue('1')" class="blackblue">1</button>
+            <button onclick="appendValue('2')" class="blackblue">2</button>
+            <button onclick="appendValue('3')" class="blackblue">3</button>
+            <button onclick="appendValue('+')" class="sini">+</button>
+            <button onclick="appendValue('0')" class="blackblue">0</button>
+            <button onclick="dot()" class="blackblue">.</button>
+            <button onclick="clearLast()" class="blackblue">←</button>
+            <button onclick="calculateResult()" class="sini">=</button>
+        </div>
+    </section>
+    <script src="script26-hard.js"></script>
+</body>
+</html>
